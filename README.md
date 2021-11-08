@@ -26,7 +26,11 @@ http://localhost:8080/weather/?location=London,GB
 http://localhost:8080/weather/?location=Delhi,IN
 
 ### Build and run detail
-The application can be run using mvn. However the build jar has been created and saved in the target folder. 
-To run it from cmd: GO to folder location
-cd target 
-java -jar weather-api.jar 
+The application can be run using either of the following ways
+1. From any IDE after importing the project
+2. Run below using CMD from within the project folder
+   mvn spring-boot:run 
+3. In CMD go to project folder, and run 'mvnw package' . This will generate .jar file in the target folder.
+    To run it:
+    cd target 
+    java -jar weather-api.jar 
