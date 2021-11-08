@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "resource.api_key",
+    "type": "java.lang.String",
+    "description": "A description for 'resource.api_key'"
+  },
+  {
+    "name": "resource.weather_url",
+    "type": "java.lang.String",
+    "description": "A description for 'resource.weather_url'"
+  }
+]}
